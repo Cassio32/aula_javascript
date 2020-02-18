@@ -1,0 +1,10 @@
+h1{
+    border:1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    background-color: dimgray;
+    color:#fff;
+}

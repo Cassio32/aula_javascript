@@ -1,0 +1,37 @@
+#comando git
+
+identificação
+ git config --global user.name "fulano de tal"
+ git config --global user.email "fulanodetal@exemplo.com.br"
+
+verificando a configuração
+ git config --list
+
+criando uma pasta no git
+ mkdir exemplo_02
+
+iniciando um repositorio
+ //entra na pagina e executa 
+ git init
+
+apagando repositorio git
+ rm -rf .git
+
+verifica o status do repositorio
+ git status
+
+adicionar arquivo
+ git add nomedoarquivo
+ git add . #todos dos arquivos sao adicionados
+
+
+efetuando o commit das alterações (gravando)
+
+ git commit -m "Comentário"
+
+ver histórico de commits
+ git log
+
+
+
+
